@@ -27,7 +27,7 @@ Scenario Outline: Test for bus searching functionality
 	Examples: 
 		|from|to|
 		|Guwahati (All Locations)|North Lakhimpur|
-		|Guwahati (All Locations)|Dibrugarh|
+		#|Guwahati (All Locations)|Dibrugarh|
 		
 @TC_SEARCH_007
 Scenario Outline: Test for bus searching functionality

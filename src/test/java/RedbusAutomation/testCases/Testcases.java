@@ -25,10 +25,10 @@ public class Testcases {
 	@When("^User enters (.+) and (.+)$")
 	public void user_enters_and_and(String from, String to) throws Throwable {
 		driver.findElement(By.id("src")).sendKeys(from);
-		//driver.findElement(By.xpath("//section[@id=\"search\"]/div/div[1]/div/ul")).click();
+		driver.findElement(By.xpath("//section[@id=\"search\"]/div/div[1]/div/ul")).click();
 		//driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		driver.findElement(By.id("dest")).sendKeys(to);
-		//driver.findElement(By.xpath("//section[@id=\"search\"]/div/div[2]/div/ul")).click();
+		driver.findElement(By.xpath("//section[@id=\"search\"]/div/div[2]/div/ul")).click();
 		//driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		driver.findElement(By.id("onward_cal")).click();
 		driver.findElement(By.xpath("//table/tbody/tr[5]/td[2]")).click();
