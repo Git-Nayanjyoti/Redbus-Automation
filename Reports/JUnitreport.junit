@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.229">
+    <testcase classname="Automation of Redbus" name="Test for bus searching functionality" time="0.083">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on Home page..................................................undefined
+When User enters Guwahati (All Locations) and North Lakhimpur and 14-Oct-2021.skipped
+And user clicks on Search Buses Button......................................skipped
+Then User should be able to find successfully and buses should be displayed.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Automation of Redbus" name="Test for bus searching functionality 2" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on Home page..................................................undefined
+When User enters Guwahati (All Locations) and Dibrugarh and 14-Oct-2021.....skipped
+And user clicks on Search Buses Button......................................skipped
+Then User should be able to find successfully and buses should be displayed.skipped
+]]></failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-01T11:45:48.216Z",
+        "line": 29,
+        "name": "Test for bus searching functionality",
+        "description": "",
+        "id": "automation-of-redbus;test-for-bus-searching-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User is on Home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User enters Guwahati (All Locations) and North Lakhimpur and 14-Oct-2021",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user clicks on Search Buses Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User should be able to find successfully and buses should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_SEARCH_006"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-01T11:45:48.312Z",
+        "line": 30,
+        "name": "Test for bus searching functionality",
+        "description": "",
+        "id": "automation-of-redbus;test-for-bus-searching-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User is on Home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User enters Guwahati (All Locations) and Dibrugarh and 14-Oct-2021",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user clicks on Search Buses Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User should be able to find successfully and buses should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_SEARCH_006"
+          }
+        ]
+      }
+    ],
+    "name": "Automation of Redbus",
+    "description": "",
+    "id": "automation-of-redbus",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/RedbusAutomation/Features/Redbus.feature",
+    "tags": []
+  }
+]
