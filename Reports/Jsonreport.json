@@ -3,121 +3,129 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-01T11:45:48.216Z",
-        "line": 29,
-        "name": "Test for bus searching functionality",
+        "start_timestamp": "2021-10-11T15:58:28.420Z",
+        "line": 4,
+        "name": "Test for bus hire OutStation roundTrip",
         "description": "",
-        "id": "automation-of-redbus;test-for-bus-searching-functionality;;2",
+        "id": "bushire-outstation;test-for-bus-hire-outstation-roundtrip",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 3986100,
+              "status": "passed"
             },
-            "line": 23,
+            "line": 5,
             "name": "User is on Home page",
-            "match": {},
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_is_on_home_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 175000,
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 24,
-            "name": "User enters Guwahati (All Locations) and North Lakhimpur and 14-Oct-2021",
-            "match": {},
+            "line": 6,
+            "name": "User clicks on Bus hire",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_clicks_on_bus_hire()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 134000,
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 25,
-            "name": "user clicks on Search Buses Button",
-            "match": {},
+            "line": 7,
+            "name": "User clicks on OutStation",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_clicks_on_out_station()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 159000,
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 26,
-            "name": "User should be able to find successfully and buses should be displayed",
-            "match": {},
+            "line": 8,
+            "name": "User enters pickup location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_enters_pickup_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter destination",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_enter_destination()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters current date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_enters_current_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters return date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_enters_return_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters passenger count",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_enters_passenger_count()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on proceed and successfully hires bus",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_clicks_on_proceed_and_successfully_hires_bus()"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@TC_SEARCH_006"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-10-01T11:45:48.312Z",
-        "line": 30,
-        "name": "Test for bus searching functionality",
-        "description": "",
-        "id": "automation-of-redbus;test-for-bus-searching-functionality;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 23,
-            "name": "User is on Home page",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 130000,
-              "status": "skipped"
-            },
-            "line": 24,
-            "name": "User enters Guwahati (All Locations) and Dibrugarh and 14-Oct-2021",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 110000,
-              "status": "skipped"
-            },
-            "line": 25,
-            "name": "user clicks on Search Buses Button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 483000,
-              "status": "skipped"
-            },
-            "line": 26,
-            "name": "User should be able to find successfully and buses should be displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TC_SEARCH_006"
+            "name": "@round"
           }
         ]
       }
     ],
-    "name": "Automation of Redbus",
+    "name": "BusHire Outstation",
     "description": "",
-    "id": "automation-of-redbus",
+    "id": "bushire-outstation",
     "keyword": "Feature",
-    "uri": "file:src/test/java/RedbusAutomation/Features/Redbus.feature",
+    "uri": "file:src/test/java/RedbusAutomation/Features/BusHireOutstation.feature",
     "tags": []
   }
 ]
