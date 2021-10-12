@@ -3,7 +3,376 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-11T15:58:28.420Z",
+        "start_timestamp": "2021-10-12T15:28:32.450Z",
+        "line": 5,
+        "name": "Test for bus hire Airport pickup from Airport",
+        "description": "",
+        "id": "bushire-airport;test-for-bus-hire-airport-pickup-from-airport",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5790519000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Home page for airport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_is_on_home_page_for_aiport()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6631007000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Bus hire for airport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_clicks_on_bus_hire_for_airport()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6275137700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Airport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_clicks_on_airport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3522635800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects city",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_selects_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6478506600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter destination for airport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_enter_destination_for_airport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23675454000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters date and time when he wants the vehicle",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_enters_date_and_time_when_he_wants_the_vehicle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2096071300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters passenger count for airport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_enters_passenger_count_for_airport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2230857200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on Airport proceed and successfully hires bus",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_clicks_on_airport_proceed_and_successfully_hires_bus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pickupfromAirport"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T15:29:29.245Z",
+        "line": 16,
+        "name": "Test for bus hire Airport Drop to Airport",
+        "description": "",
+        "id": "bushire-airport;test-for-bus-hire-airport-drop-to-airport",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5793236600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on Home page for airport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_is_on_home_page_for_aiport()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6222040200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on Bus hire for airport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_clicks_on_bus_hire_for_airport()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6320764600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Airport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_clicks_on_airport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3201160400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Drop to Airport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_clicks_on_drop_to_airport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3541453400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User selects city",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_selects_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6517634100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters pickup location for aiport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_enters_pickup_location_for_aiport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24034088200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters date and time when he wants the vehicle",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_enters_date_and_time_when_he_wants_the_vehicle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2098232200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters passenger count for airport",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_enters_passenger_count_for_airport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2242477200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks on Airport proceed and successfully hires bus",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.AirportSD.user_clicks_on_airport_proceed_and_successfully_hires_bus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@droptoairport"
+          }
+        ]
+      }
+    ],
+    "name": "BusHire Airport",
+    "description": "",
+    "id": "bushire-airport",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/RedbusAutomation/features/Airport.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T15:30:29.232Z",
+        "line": 4,
+        "name": "Test for bus hire Local",
+        "description": "",
+        "id": "bushire-local;test-for-bus-hire-local",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5384256000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home page for local",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.buHireLocalSD.user_is_on_home_page_for_local()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6318536300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Bus hire for local",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.buHireLocalSD.user_clicks_on_bus_hire_for_local()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3540107200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Local",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.buHireLocalSD.user_clicks_on_local()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3709424700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters pickup location for local",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.buHireLocalSD.user_enters_pickup_location_for_local()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3328169300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects package",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.buHireLocalSD.user_selects_package()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[5]/div[3]/div/div[1]/div/div[3]/div[1]/div[1]/div/p\"}\n  (Session info: chrome\u003d94.0.4606.71)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN41006109\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\NRABHA\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fd85f2a5c00b94d52f11f7cf0711b61e\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[5]/div[3]/div/div[1]/div/div[3]/div[1]/div[1]/div/p}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.pages.BusHireAirportPage.dateAndTimeAirport(BusHireAirportPage.java:47)\r\n\tat RedbusAutomation.stepDefinition.buHireLocalSD.user_enters_start_date_and_time_for_loacal(buHireLocalSD.java:49)\r\n\tat ✽.User enters start date and time for loacal(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/BusHireLocal.feature:10)\r\n",
+              "duration": 3046910400,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "User enters start date and time for loacal",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.buHireLocalSD.user_enters_start_date_and_time_for_loacal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User enters passenger count for local",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.buHireLocalSD.user_enters_passenger_count_for_local()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User should be able to click on local proceed successfully",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.buHireLocalSD.user_should_be_able_to_click_on_local_proceed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@local"
+          }
+        ]
+      }
+    ],
+    "name": "BusHire Local",
+    "description": "",
+    "id": "bushire-local",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/RedbusAutomation/features/BusHireLocal.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T15:30:54.586Z",
         "line": 4,
         "name": "Test for bus hire OutStation roundTrip",
         "description": "",
@@ -13,7 +382,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3986100,
+              "duration": 4484711100,
               "status": "passed"
             },
             "line": 5,
@@ -25,6 +394,7 @@
           },
           {
             "result": {
+              "duration": 6760055700,
               "status": "passed"
             },
             "line": 6,
@@ -36,6 +406,7 @@
           },
           {
             "result": {
+              "duration": 2552175000,
               "status": "passed"
             },
             "line": 7,
@@ -47,6 +418,7 @@
           },
           {
             "result": {
+              "duration": 2740364400,
               "status": "passed"
             },
             "line": 8,
@@ -58,6 +430,7 @@
           },
           {
             "result": {
+              "duration": 2358807400,
               "status": "passed"
             },
             "line": 9,
@@ -69,6 +442,7 @@
           },
           {
             "result": {
+              "duration": 17599782900,
               "status": "passed"
             },
             "line": 10,
@@ -80,7 +454,7 @@
           },
           {
             "result": {
-              "duration": 1019400,
+              "duration": 18604742200,
               "status": "passed"
             },
             "line": 11,
@@ -92,7 +466,7 @@
           },
           {
             "result": {
-              "duration": 998900,
+              "duration": 1110572800,
               "status": "passed"
             },
             "line": 12,
@@ -104,6 +478,7 @@
           },
           {
             "result": {
+              "duration": 2271410200,
               "status": "passed"
             },
             "line": 13,
@@ -119,13 +494,990 @@
             "name": "@round"
           }
         ]
+      },
+      {
+        "start_timestamp": "2021-10-12T15:31:53.091Z",
+        "line": 16,
+        "name": "Test for bus hire OutStation oneWayTrip",
+        "description": "",
+        "id": "bushire-outstation;test-for-bus-hire-outstation-onewaytrip",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4361175900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on Home page",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6931467100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on Bus hire",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_clicks_on_bus_hire()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2533469400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on OutStation",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_clicks_on_out_station()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1274996100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on oneWayTrip",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_clicks_on_oneWayTrip()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2802498200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters pickup location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_enters_pickup_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2643124200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter destination",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_enter_destination()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18246361200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters current date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_enters_current_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18119297400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters return date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_enters_return_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1120342800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters passenger count",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_enters_passenger_count()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2308137900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on proceed and successfully hires bus",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.busHireOutstationSD.user_clicks_on_proceed_and_successfully_hires_bus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@oneway"
+          }
+        ]
       }
     ],
     "name": "BusHire Outstation",
     "description": "",
     "id": "bushire-outstation",
     "keyword": "Feature",
-    "uri": "file:src/test/java/RedbusAutomation/Features/BusHireOutstation.feature",
+    "uri": "file:src/test/java/RedbusAutomation/features/BusHireOutstation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T15:32:53.454Z",
+        "line": 2,
+        "name": "",
+        "description": "",
+        "id": "search-buses;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6148408000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2364437100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters current location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_current_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2323418200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters destination location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_destination_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4600856200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters journey date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135213800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks Search Buses button",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_clicks_search_buses_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10585319200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Available Buses listed",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.available_buses_listed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T15:33:19.638Z",
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "search-buses;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6296956300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/section/div[2]/main/section/div/div[2]/section/div/div[1]/div/ul\"}\n  (Session info: chrome\u003d94.0.4606.71)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN41006109\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\NRABHA\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 49d288105cfb2d8b354166b9ca4def76\n*** Element info: {Using\u003dxpath, value\u003d/html/body/section/div[2]/main/section/div/div[2]/section/div/div[1]/div/ul}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.findElements(Unknown Source)\r\n\tat com.pages.SearchBusesMethods.busTicketDropdown(SearchBusesMethods.java:61)\r\n\tat RedbusAutomation.stepDefinition.SearchBuses.user_enters_current_location(SearchBuses.java:39)\r\n\tat ✽.User enters current location(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/SearchBuses.feature:12)\r\n",
+              "duration": 2335845500,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "User enters current location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_current_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enters destination location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_destination_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User enters journey date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "All the user entered values should be displayed",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.all_the_user_entered_values_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T15:33:28.290Z",
+        "line": 27,
+        "name": "",
+        "description": "",
+        "id": "search-buses;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6181775500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2365877500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters current location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_current_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2303819500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters destination location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_destination_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4192163500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters journey date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134148700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks Search Buses button",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_clicks_search_buses_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15772492800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User select DEPARTURE TIME and After 6 pm",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DEPARTURE TIME",
+                  "offset": 12
+                },
+                {
+                  "val": "After 6 pm",
+                  "offset": 31
+                }
+              ],
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_select_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T15:33:59.247Z",
+        "line": 28,
+        "name": "",
+        "description": "",
+        "id": "search-buses;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4139247500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2728075300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters current location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_current_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2273208900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters destination location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_destination_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d94.0.4606.71)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN41006109\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\NRABHA\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c26d0cefb57c4bf9f2ff9790fa5ec7b9\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.common.base.datepicker(base.java:66)\r\n\tat RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date(SearchBuses.java:56)\r\n\tat ✽.User enters journey date(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/SearchBuses.feature:22)\r\n",
+              "duration": 3116923200,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "User enters journey date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User clicks Search Buses button",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_clicks_search_buses_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User select BUS TYPES and SEATER",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BUS TYPES",
+                  "offset": 12
+                },
+                {
+                  "val": "SEATER",
+                  "offset": 26
+                }
+              ],
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_select_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T15:34:11.513Z",
+        "line": 29,
+        "name": "",
+        "description": "",
+        "id": "search-buses;;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3513691300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2329509600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters current location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_current_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2315056900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters destination location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_destination_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d94.0.4606.71)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN41006109\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\NRABHA\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a51c93715287ab91ce80ea9b491a2c73\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.common.base.datepicker(base.java:66)\r\n\tat RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date(SearchBuses.java:56)\r\n\tat ✽.User enters journey date(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/SearchBuses.feature:22)\r\n",
+              "duration": 3078044100,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "User enters journey date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User clicks Search Buses button",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_clicks_search_buses_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User select ARRIVAL TIME and Before 6 am",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ARRIVAL TIME",
+                  "offset": 12
+                },
+                {
+                  "val": "Before 6 am",
+                  "offset": 29
+                }
+              ],
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_select_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T15:34:22.757Z",
+        "line": 30,
+        "name": "",
+        "description": "",
+        "id": "search-buses;;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6185575000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2312827600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters current location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_current_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2263730400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters destination location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_destination_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d94.0.4606.71)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN41006109\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\NRABHA\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56114}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0381c4b63e3b58645da9ad76962b0efe\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.common.base.datepicker(base.java:66)\r\n\tat RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date(SearchBuses.java:56)\r\n\tat ✽.User enters journey date(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/SearchBuses.feature:22)\r\n",
+              "duration": 3101393900,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "User enters journey date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User clicks Search Buses button",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_clicks_search_buses_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User select BOARDING POINT and Game Village",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BOARDING POINT",
+                  "offset": 12
+                },
+                {
+                  "val": "Game Village",
+                  "offset": 31
+                }
+              ],
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_select_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T15:34:36.624Z",
+        "line": 31,
+        "name": "",
+        "description": "",
+        "id": "search-buses;;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5242032600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2419673400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters current location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_current_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2358689800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters destination location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_destination_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4129424500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters journey date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123021400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks Search Buses button",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_clicks_search_buses_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15837907600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User select DROPPING POINT and North Lakhimpur",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DROPPING POINT",
+                  "offset": 12
+                },
+                {
+                  "val": "North Lakhimpur",
+                  "offset": 31
+                }
+              ],
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_select_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T15:35:06.739Z",
+        "line": 32,
+        "name": "",
+        "description": "",
+        "id": "search-buses;;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5417991500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2298376200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters current location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_current_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2281562900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters destination location",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_destination_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d94.0.4606.71)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN41006109\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\NRABHA\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 25a6d192eba9a75e668346a08535d196\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.common.base.datepicker(base.java:66)\r\n\tat RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date(SearchBuses.java:56)\r\n\tat ✽.User enters journey date(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/SearchBuses.feature:22)\r\n",
+              "duration": 3081842800,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "User enters journey date",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User clicks Search Buses button",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_clicks_search_buses_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User select OPERATOR and Blue Hill Travels",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OPERATOR",
+                  "offset": 12
+                },
+                {
+                  "val": "Blue Hill Travels",
+                  "offset": 25
+                }
+              ],
+              "location": "RedbusAutomation.stepDefinition.SearchBuses.user_select_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Search Buses",
+    "description": "",
+    "id": "search-buses",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/RedbusAutomation/features/SearchBuses.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T15:35:19.825Z",
+        "line": 3,
+        "name": "Test for viewing seats",
+        "description": "",
+        "id": "view-seats;test-for-viewing-seats",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5822898800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home page for viewing seats",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.viewSeatsSD.user_is_on_home_page_for_viewing_seats()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2331331200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters location for viewing seats",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.viewSeatsSD.user_enters_location_for_viewing_seats()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2252013500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters destination for viewing seats",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.viewSeatsSD.user_enters_destination_for_viewing_seats()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6187608900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters date for viewing seats",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.viewSeatsSD.user_enters_date_for_viewing_seats()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2130186400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on search button for viewing seats",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.viewSeatsSD.user_clicks_on_search_button_for_viewing_seats()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30245223900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to click on view seats successfully",
+            "match": {
+              "location": "RedbusAutomation.stepDefinition.viewSeatsSD.user_should_be_able_to_click_on_view_seats_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "View Seats",
+    "description": "",
+    "id": "view-seats",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/RedbusAutomation/features/ViewSeats.feature",
     "tags": []
   }
 ]

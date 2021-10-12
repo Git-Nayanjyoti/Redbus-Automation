@@ -1,6 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.443">
-    <testcase classname="BusHire Outstation" name="Test for bus hire OutStation roundTrip" time="0.126">
+<testsuite errors="0" failures="6" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="456.515">
+    <testcase classname="BusHire Airport" name="Test for bus hire Airport pickup from Airport" time="56.78">
+        <system-out>
+            <![CDATA[Given User is on Home page for airport......................................passed
+When User clicks on Bus hire for airport....................................passed
+And User clicks on Airport..................................................passed
+And User selects city.......................................................passed
+And User enter destination for airport......................................passed
+And User enters date and time when he wants the vehicle.....................passed
+And User enters passenger count for airport.................................passed
+Then User clicks on Airport proceed and successfully hires bus..............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="BusHire Airport" name="Test for bus hire Airport Drop to Airport" time="59.978">
+        <system-out>
+            <![CDATA[Given User is on Home page for airport......................................passed
+When User clicks on Bus hire for airport....................................passed
+And User clicks on Airport..................................................passed
+And User clicks on Drop to Airport..........................................passed
+And User selects city.......................................................passed
+And User enters pickup location for aiport..................................passed
+And User enters date and time when he wants the vehicle.....................passed
+And User enters passenger count for airport.................................passed
+Then User clicks on Airport proceed and successfully hires bus..............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="BusHire Local" name="Test for bus hire Local" time="25.341">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[5]/div[3]/div/div[1]/div/div[3]/div[1]/div[1]/div/p&quot;}&#10;  (Session info: chrome=94.0.4606.71)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fd85f2a5c00b94d52f11f7cf0711b61e&#10;*** Element info: {Using=xpath, value=/html/body/div[5]/div[3]/div/div[1]/div/div[3]/div[1]/div[1]/div/p}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given User is on Home page for local........................................passed
+When User clicks on Bus hire for local......................................passed
+And User clicks on Local....................................................passed
+And User enters pickup location for local...................................passed
+And User selects package....................................................passed
+And User enters start date and time for loacal..............................failed
+And User enters passenger count for local...................................skipped
+Then User should be able to click on local proceed successfully.............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[5]/div[3]/div/div[1]/div/div[3]/div[1]/div[1]/div/p"}
+  (Session info: chrome=94.0.4606.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd85f2a5c00b94d52f11f7cf0711b61e
+*** Element info: {Using=xpath, value=/html/body/div[5]/div[3]/div/div[1]/div/div[3]/div[1]/div[1]/div/p}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.BusHireAirportPage.dateAndTimeAirport(BusHireAirportPage.java:47)
+	at RedbusAutomation.stepDefinition.buHireLocalSD.user_enters_start_date_and_time_for_loacal(buHireLocalSD.java:49)
+	at ✽.User enters start date and time for loacal(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/BusHireLocal.feature:10)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="BusHire Outstation" name="Test for bus hire OutStation roundTrip" time="58.489">
         <system-out>
             <![CDATA[Given User is on Home page..................................................passed
 When User clicks on Bus hire................................................passed
@@ -11,6 +79,246 @@ And User enters current date................................................pass
 And User enters return date.................................................passed
 And User enters passenger count.............................................passed
 Then User clicks on proceed and successfully hires bus......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="BusHire Outstation" name="Test for bus hire OutStation oneWayTrip" time="60.349">
+        <system-out>
+            <![CDATA[Given User is on Home page..................................................passed
+When User clicks on Bus hire................................................passed
+And User clicks on OutStation...............................................passed
+And User clicks on oneWayTrip...............................................passed
+And User enters pickup location.............................................passed
+And User enter destination..................................................passed
+And User enters current date................................................passed
+And User enters return date.................................................passed
+And User enters passenger count.............................................passed
+Then User clicks on proceed and successfully hires bus......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search Buses" name="_2" time="26.177">
+        <system-out>
+            <![CDATA[Given User is on Home Page..................................................passed
+When User enters current location...........................................passed
+And User enters destination location........................................passed
+And User enters journey date................................................passed
+And User clicks Search Buses button.........................................passed
+Then Available Buses listed.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search Buses" name="_3" time="8.636">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/section/div[2]/main/section/div/div[2]/section/div/div[1]/div/ul&quot;}&#10;  (Session info: chrome=94.0.4606.71)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 49d288105cfb2d8b354166b9ca4def76&#10;*** Element info: {Using=xpath, value=/html/body/section/div[2]/main/section/div/div[2]/section/div/div[1]/div/ul}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given User is on Home Page..................................................passed
+When User enters current location...........................................failed
+And User enters destination location........................................skipped
+And User enters journey date................................................skipped
+Then All the user entered values should be displayed........................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/main/section/div/div[2]/section/div/div[1]/div/ul"}
+  (Session info: chrome=94.0.4606.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 49d288105cfb2d8b354166b9ca4def76
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/main/section/div/div[2]/section/div/div[1]/div/ul}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.findElements(Unknown Source)
+	at com.pages.SearchBusesMethods.busTicketDropdown(SearchBusesMethods.java:61)
+	at RedbusAutomation.stepDefinition.SearchBuses.user_enters_current_location(SearchBuses.java:39)
+	at ✽.User enters current location(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/SearchBuses.feature:12)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Search Buses" name="_4" time="30.953">
+        <system-out>
+            <![CDATA[Given User is on Home Page..................................................passed
+When User enters current location...........................................passed
+And User enters destination location........................................passed
+And User enters journey date................................................passed
+And User clicks Search Buses button.........................................passed
+Then User select DEPARTURE TIME and After 6 pm..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search Buses" name="_5" time="12.263">
+        <failure message="element not interactable&#10;  (Session info: chrome=94.0.4606.71)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c26d0cefb57c4bf9f2ff9790fa5ec7b9" type="org.openqa.selenium.ElementNotInteractableException">
+            <![CDATA[Given User is on Home Page..................................................passed
+When User enters current location...........................................passed
+And User enters destination location........................................passed
+And User enters journey date................................................failed
+And User clicks Search Buses button.........................................skipped
+Then User select BUS TYPES and SEATER.......................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c26d0cefb57c4bf9f2ff9790fa5ec7b9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.common.base.datepicker(base.java:66)
+	at RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date(SearchBuses.java:56)
+	at ✽.User enters journey date(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/SearchBuses.feature:22)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Search Buses" name="_6" time="11.239">
+        <failure message="element not interactable&#10;  (Session info: chrome=94.0.4606.71)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a51c93715287ab91ce80ea9b491a2c73" type="org.openqa.selenium.ElementNotInteractableException">
+            <![CDATA[Given User is on Home Page..................................................passed
+When User enters current location...........................................passed
+And User enters destination location........................................passed
+And User enters journey date................................................failed
+And User clicks Search Buses button.........................................skipped
+Then User select ARRIVAL TIME and Before 6 am...............................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a51c93715287ab91ce80ea9b491a2c73
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.common.base.datepicker(base.java:66)
+	at RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date(SearchBuses.java:56)
+	at ✽.User enters journey date(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/SearchBuses.feature:22)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Search Buses" name="_7" time="13.864">
+        <failure message="element not interactable&#10;  (Session info: chrome=94.0.4606.71)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56114}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0381c4b63e3b58645da9ad76962b0efe" type="org.openqa.selenium.ElementNotInteractableException">
+            <![CDATA[Given User is on Home Page..................................................passed
+When User enters current location...........................................passed
+And User enters destination location........................................passed
+And User enters journey date................................................failed
+And User clicks Search Buses button.........................................skipped
+Then User select BOARDING POINT and Game Village............................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56114}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0381c4b63e3b58645da9ad76962b0efe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.common.base.datepicker(base.java:66)
+	at RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date(SearchBuses.java:56)
+	at ✽.User enters journey date(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/SearchBuses.feature:22)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Search Buses" name="_8" time="30.111">
+        <system-out>
+            <![CDATA[Given User is on Home Page..................................................passed
+When User enters current location...........................................passed
+And User enters destination location........................................passed
+And User enters journey date................................................passed
+And User clicks Search Buses button.........................................passed
+Then User select DROPPING POINT and North Lakhimpur.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search Buses" name="_9" time="13.081">
+        <failure message="element not interactable&#10;  (Session info: chrome=94.0.4606.71)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 25a6d192eba9a75e668346a08535d196" type="org.openqa.selenium.ElementNotInteractableException">
+            <![CDATA[Given User is on Home Page..................................................passed
+When User enters current location...........................................passed
+And User enters destination location........................................passed
+And User enters journey date................................................failed
+And User clicks Search Buses button.........................................skipped
+Then User select OPERATOR and Blue Hill Travels.............................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN41006109', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NRABHA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25a6d192eba9a75e668346a08535d196
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.common.base.datepicker(base.java:66)
+	at RedbusAutomation.stepDefinition.SearchBuses.user_enters_journey_date(SearchBuses.java:56)
+	at ✽.User enters journey date(file:///C:/Users/NRABHA/eclipse-workspace/Redbus-Automation/./src/test/java/RedbusAutomation/features/SearchBuses.feature:22)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="View Seats" name="Test for viewing seats" time="48.972">
+        <system-out>
+            <![CDATA[Given User is on Home page for viewing seats................................passed
+When User enters location for viewing seats.................................passed
+And User enters destination for viewing seats...............................passed
+And User enters date for viewing seats......................................passed
+And User clicks on search button for viewing seats..........................passed
+Then User should be able to click on view seats successfully................passed
 ]]>
         </system-out>
     </testcase>

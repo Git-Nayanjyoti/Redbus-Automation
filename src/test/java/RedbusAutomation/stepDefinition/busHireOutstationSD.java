@@ -2,16 +2,20 @@ package RedbusAutomation.stepDefinition;
 
 import java.text.ParseException;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
 import com.common.base;
-import com.pages.BusHirePage;
+import com.pages.BusHireOutstationPage;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class busHireOutstationSD extends base {
-	BusHirePage bh = new BusHirePage();
+	BusHireOutstationPage bh = new BusHireOutstationPage();
 
+	//common among Airport, Outstation, local
 	@Given("User is on Home page")
 	public void user_is_on_home_page() throws Throwable {
 		initialization();
@@ -62,5 +66,14 @@ public class busHireOutstationSD extends base {
 		bh.proceed();
 
 	}
+	
+	@When("User clicks on oneWayTrip")
+	public void user_clicks_on_oneWayTrip() throws InterruptedException {
+		bh.clicksOnewayTrip();
+		
+	}
+	
+	
 
+	
 }

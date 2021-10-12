@@ -40,38 +40,13 @@ public class base {
 			System.out.println("Unable to read the file!!!");
 		}
 	}
-
-	public void initialization() {
-
-		String browser = prop.getProperty("browser"); 
-		if (browser.equals("chrome")) { 			
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
-		} else if (browser.equals("safari")) {
-			
-			WebDriverManager.safaridriver().setup();
-			driver = new SafariDriver();
-		} else if (browser.equals("ie")) {
-			
-			WebDriverManager.iedriver().setup();
-			driver = new InternetExplorerDriver();
-		}
-		
-		driver.get(prop.getProperty("url"));
-		driver.manage().window().maximize();
-	}
- 
-	public void closeDriver() {
-		driver.close();
-	}
-
-	public static void datepicker(String date) throws InterruptedException, ParseException {
+	public void datepicker(String date) throws InterruptedException, ParseException {
 		String[] months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
 		String[] dateArr = date.split("-", 2);
 		String day = dateArr[0];
 		String[] year = date.split("-");
 		String month = year[1];
-		Date now = new Date();
+		Date currentDate = new Date();
 		String formateDate = "";
 		for (int num = 0; num < months.length; num++) {
 			if (months[num].equals(month)) {
@@ -81,18 +56,7 @@ public class base {
 		}
 
 		Date inputDate = new SimpleDateFormat("dd/MM/yyyy").parse(formateDate);
-		Calendar calendar = Calendar.getInstance();
-		calendar.setTime(now);
-		calendar.set(Calendar.HOUR_OF_DAY, 0);
-		calendar.set(Calendar.MINUTE, 0);
-		calendar.set(Calendar.SECOND, 0);
-		now = calendar.getTime();
-
-		Calendar cal = Calendar.getInstance();
-		cal.setTime(inputDate);
-		cal.set(Calendar.SECOND, 40);
-		inputDate = cal.getTime();
-		if (inputDate.before(now)) {
+		if (inputDate.before(currentDate)) {
 			// Do nothing
 			System.out.println("Pre date can't be entered");
 		} else {
@@ -130,6 +94,31 @@ public class base {
 			}
 		}
 
+	}
+
+ 
+	public void initialization() {
+
+		String browser = prop.getProperty("browser"); 
+		if (browser.equals("chrome")) { 			
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		} else if (browser.equals("safari")) {
+			
+			WebDriverManager.safaridriver().setup();
+			driver = new SafariDriver();
+		} else if (browser.equals("ie")) {
+			
+			WebDriverManager.iedriver().setup();
+			driver = new InternetExplorerDriver();
+		}
+		
+		driver.get(prop.getProperty("url"));
+		driver.manage().window().maximize();
+	}
+ 
+	public void closeDriver() {
+		driver.close();
 	}
 
 }
